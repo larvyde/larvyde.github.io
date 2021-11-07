@@ -12,10 +12,24 @@
         -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.32);
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.32);
         border-radius: 24px;
-        border-radius: 16px;
-        padding: 94px;
         margin: 56px auto;
         max-width: 940px;
+    }
+    
+    #openingpage {
+        padding-top: 96px;
+    }
+    
+    #title-text {
+        font-size: 50px;
+    }
+    
+    #main {
+        padding: 94px;
+    }
+    
+    #foot {
+        border-radius: 0 0 24px 24px;
     }
     
     .prominent {
@@ -46,6 +60,19 @@
     p {
         margin: 24px 64px;
     }
+    
+    img#flower1 {
+        max-height: 107px;
+    }
+    
+    img#flower2 {
+        max-height: 230px;
+    }
+    
+    #extra {
+        margin: 0;
+        padding: 48px 96px;
+    }
 }
 
 /* mobile */
@@ -54,8 +81,21 @@
         font-size: 12px;
     }
     
-    .box {
+    #openingpage {
+        padding-top: 32px;
+    }
+    
+    #title-text {
+        font-size: 40px;
+    }
+    
+    .container {
+        padding: 0;
+    }
+    
+    #main {
         margin: 20px;
+        padding: 12px 0;
     }
 
     .prominent {
@@ -73,12 +113,40 @@
     .hashtag {
         font-size: 16px;
     }
+    
+    img#flower1 {
+        display: block;
+        max-height: 85px;
+        margin: auto auto;
+    }
+    
+    img#flower2 {
+        display: block;
+        max-height: 147px;
+        margin: auto auto;
+    }
+    
+    #extra {
+        padding: 34px;
+    }
+}
+
+#head {
+    text-align: center;
 }
 
 /* common */
 body {
     font-family: 'Averia Serif Libre', cursive;
     color: #444;
+}
+
+#extra {
+    background-color: #f6f6f6;
+}
+
+#foot {
+    background-color: #eaeaea;
 }
 
 .verse, .verserc {
@@ -91,7 +159,7 @@ body {
 .vertical-line {
     width: 1px;
     height: 70px;
-    background-color: #000;
+    background-color: #4C0007;
     margin: auto;
 }
 
@@ -114,4 +182,16 @@ a {
 .hashtag {
     text-align: center;
     color: #4C0007;
+}
+
+#extra {
+    font-size: 14px;
+    text-align: left;
+}
+
+#foot {
+    font-size: 9px;
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
 }
