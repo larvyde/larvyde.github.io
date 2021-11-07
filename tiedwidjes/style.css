@@ -1,0 +1,117 @@
+/* desktop */
+@media(min-width:768px) {
+    body {
+        text-align: center;
+        font-size: 18px;
+        background-image: url(background.png);
+    }
+
+    .box {
+        background: #FFFFFF;
+        -moz-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.32);
+        -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.32);
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.32);
+        border-radius: 24px;
+        border-radius: 16px;
+        padding: 94px;
+        margin: 56px auto;
+        max-width: 940px;
+    }
+    
+    .prominent {
+        display:inline;
+        margin: 0;
+        text-align: center;
+        font-size: 55px;
+    }
+    
+    .title {
+        float: right;
+    }
+    
+    .verse {
+        font-size: 24px;
+        margin: 12px 64px;
+    }
+    
+    .verserc {
+        font-size: 16px;
+        margin: 12px 64px;
+    }
+    
+    .hashtag {
+        font-size: 21px;
+    }
+    
+    p {
+        margin: 24px 64px;
+    }
+}
+
+/* mobile */
+@media(max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    
+    .box {
+        margin: 20px;
+    }
+
+    .prominent {
+        font-size: 24px;
+    }
+    
+    .verse {
+        font-size: 16px;
+    }
+    
+    .verserc {
+        font-size: 10px;
+    }
+    
+    .hashtag {
+        font-size: 16px;
+    }
+}
+
+/* common */
+body {
+    font-family: 'Averia Serif Libre', cursive;
+    color: #444;
+}
+
+.verse, .verserc {
+    text-align: center;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 70px;
+    background-color: #000;
+    margin: auto;
+}
+
+.prominent {
+    font-family: 'Bodoni Moda', serif;
+    line-height: 66px;
+    color: #4C0007;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+a {
+    color: #4C0007;
+    text-decoration-line: underline;
+}
+
+.hashtag {
+    text-align: center;
+    color: #4C0007;
+}
