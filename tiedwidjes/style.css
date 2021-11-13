@@ -146,7 +146,7 @@
 body {
     font-family: 'Averia Serif Libre', cursive;
     color: #444;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #extra {
