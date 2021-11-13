@@ -18,6 +18,7 @@
     
     #openingpage {
         padding-top: 96px;
+        padding-bottom: 96px;
     }
     
     #title-text {
@@ -26,6 +27,7 @@
     
     #main {
         padding: 94px;
+        padding-top: 0;
     }
     
     #foot {
@@ -83,6 +85,7 @@
     
     #openingpage {
         padding-top: 32px;
+        padding-bottom: 32px;
     }
     
     #title-text {
@@ -95,9 +98,13 @@
     
     #main {
         margin: 20px;
-        padding: 12px 0;
+        padding-bottom: 12px;
     }
 
+    #carousel {
+        padding-bottom: 24px;
+    }
+    
     .prominent {
         font-size: 24px;
     }
@@ -149,6 +156,16 @@ body {
     background-color: #eaeaea;
 }
 
+#carousel {
+    padding-top: 24px;
+}
+
+.carousel,
+.carousel .item,
+.carousel .item > img {
+    height: 100%;
+}
+
 .verse, .verserc {
     text-align: center;
     line-height: 170%;
@@ -194,4 +211,8 @@ a {
     font-style: italic;
     padding: 8px;
     text-align: center;
+}
+
+div.spacer {
+    height: 24px;
 }
